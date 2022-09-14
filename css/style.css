@@ -18,16 +18,15 @@
 }
 
 .fondo{
-    box-shadow: inset 0 0 5rem rgb(0 0 0 / 50%);
-    background-size: 100% 1000px;
     background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 100vh;
 }
-
-
 
 .logo{
     transition: 10s;
-
 }
 
 .logo:hover {
@@ -36,7 +35,10 @@
 
 .navbar{
     padding: 1rem;
+}
 
+.main-all{
+    box-shadow: inset 0 0 5rem rgb(0 0 0 / 50%);
 }
 
 .introduccion{
@@ -216,6 +218,7 @@
     background-color: transparent;
     background-color: #11020245;
     border-radius: 7px;
+    margin-bottom: 30px;
 }
 
 .section{
@@ -249,6 +252,7 @@
     box-sizing: border-box;
     margin-top: 30px;
     border-radius: 7px;
+    margin-bottom: 30px;
 }
 
 .input{
@@ -273,10 +277,7 @@
 }
 
 .footer-style {
-    padding-top: 15px;
     background-color: rgba(77, 77, 77, 0.815);
-    margin-top: 25px;
-
 }
 
 footer h3 {
@@ -287,9 +288,7 @@ footer .footer-above {
   padding-top: 50px;
   background-color: rgba(82, 82, 82, 0.815);
 }
-footer .footer-col {
-  margin-bottom: 10px;
-}
+
 footer .footer-below {
   padding: 25px 0;
   background-color: rgba(88, 88, 88, 0.815);
